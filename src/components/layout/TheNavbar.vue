@@ -36,7 +36,12 @@ const isDark = useDark()
 
           <base-badge-notice size="xs" class="hidden xl:block">
             <template #title>
-              <span class="capitalize"> ✨ Blog </span>
+              <router-link
+                to="/blog"
+                class="capitalize hover:text-sky-500"
+              >
+                ✨ Blog
+              </router-link>
             </template>
             <template #message>
               <router-link

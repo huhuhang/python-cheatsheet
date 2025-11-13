@@ -3,7 +3,6 @@ import { acceptHMRUpdate, defineStore } from 'pinia'
 export const useNavigationStore = defineStore('navigation', {
   state: () => ({
     navbarNavigation: [
-      { name: 'Blog', path: '/blog', internal: true },
     ],
     mainNavigation: [
       {
