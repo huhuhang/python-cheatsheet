@@ -11,7 +11,7 @@ export const useNavigationStore = defineStore('navigation', {
     navbarNavigation: [] as NavbarNavigationItem[],
     mainNavigation: [
       {
-        name: 'Getting started',
+        name: 'Getting Started',
         path: '/',
       }
     ],
@@ -22,12 +22,12 @@ export const useNavigationStore = defineStore('navigation', {
         updated: false,
       },
       {
-        name: 'Built-in functions',
+        name: 'Built-in Functions',
         path: '/cheatsheet/built-in-functions',
         updated: false,
       },
       {
-        name: 'Control flow',
+        name: 'Control Flow',
         path: '/cheatsheet/control-flow',
         updated: false,
       },
@@ -38,7 +38,7 @@ export const useNavigationStore = defineStore('navigation', {
       },
 
       {
-        name: 'List and Tuples',
+        name: 'Lists and Tuples',
         path: '/cheatsheet/lists-and-tuples',
         updated: false,
       },
@@ -58,27 +58,27 @@ export const useNavigationStore = defineStore('navigation', {
         updated: false,
       },
       {
-        name: 'Manipulating strings',
+        name: 'Manipulating Strings',
         path: '/cheatsheet/manipulating-strings',
         updated: false,
       },
       {
-        name: 'String formatting',
+        name: 'String Formatting',
         path: '/cheatsheet/string-formatting',
         updated: false,
       },
       {
-        name: 'Regular expressions',
+        name: 'Regular Expressions',
         path: '/cheatsheet/regular-expressions',
         updated: false,
       },
       {
-        name: 'Files and directory paths',
+        name: 'Files and Directory Paths',
         path: '/cheatsheet/file-directory-path',
         updated: false,
       },
       {
-        name: 'Reading and writing files',
+        name: 'Reading and Writing Files',
         path: '/cheatsheet/reading-and-writing-files',
         updated: false,
       },
@@ -88,7 +88,7 @@ export const useNavigationStore = defineStore('navigation', {
         updated: false,
       },
       {
-        name: 'Exception handling',
+        name: 'Exception Handling',
         path: '/cheatsheet/exception-handling',
         updated: false,
       },
@@ -98,7 +98,7 @@ export const useNavigationStore = defineStore('navigation', {
         updated: false,
       },
       {
-        name: 'Args and Kwargs',
+        name: 'Args and kwargs',
         path: '/cheatsheet/args-and-kwargs',
         updated: false,
       },
@@ -108,7 +108,7 @@ export const useNavigationStore = defineStore('navigation', {
         updated: false,
       },
       {
-        name: 'Context manager',
+        name: 'Context Manager',
         path: '/cheatsheet/context-manager',
         updated: false,
       },
@@ -128,12 +128,12 @@ export const useNavigationStore = defineStore('navigation', {
         updated: false,
       },
       {
-        name: 'Main: top level script',
+        name: 'Main: Top-Level Script',
         path: '/cheatsheet/main',
         updated: false,
       },
       {
-        name: 'Virtual environments',
+        name: 'Virtual Environments',
         path: '/cheatsheet/virtual-environments',
         updated: false,
       },
