@@ -19,7 +19,7 @@ const tags = props.frontmatter.tags?.split(', ')
   <div>
     <div class="flex items-center">
       <span
-        class="hidden font-display text-sm font-medium text-sky-500 sm:flex"
+        class="hidden font-display text-sm font-medium text-primary-500 sm:flex"
       >
         Posted on {{ frontmatter.date }}
       </span>
@@ -40,7 +40,7 @@ const tags = props.frontmatter.tags?.split(', ')
       <span
         v-for="tag in tags"
         :key="tag"
-        class="rounded bg-sky-500 px-1.5 py-1 dark:bg-sky-600"
+        class="rounded bg-primary-500 px-1.5 py-1 dark:bg-primary-600"
       >
         #{{ tag }}
       </span>

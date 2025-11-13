@@ -28,7 +28,7 @@ const enabled = ref(isDark)
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-4 text-cyan-600"
+          class="h-4 text-accent-600"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"

@@ -140,7 +140,7 @@ function prevPage() {
             <time class="text-sm text-slate-500 dark:text-slate-400">
               {{ featuredArticle.children[0]?.meta?.date }}
             </time>
-            <div class="flex items-center text-sm font-medium text-sky-500">
+            <div class="flex items-center text-sm font-medium text-primary-500">
               Read article
               <svg
                 viewBox="0 0 16 16"
@@ -214,7 +214,7 @@ function prevPage() {
           <time class="text-xs text-slate-500 dark:text-slate-400">
             {{ article.children[0]?.meta?.date }}
           </time>
-          <div class="flex items-center text-sm font-medium text-sky-500">
+          <div class="flex items-center text-sm font-medium text-primary-500">
             Read article
             <svg
               viewBox="0 0 16 16"

@@ -57,7 +57,7 @@ const isDark = useDark()
             <template #title>
               <router-link
                 to="/blog"
-                class="capitalize hover:text-sky-500"
+                class="capitalize hover:text-primary-500"
               >
                 ✨ Blog
               </router-link>
@@ -65,7 +65,7 @@ const isDark = useDark()
             <template #message>
               <router-link
                 to="/blog/python-decorators-for-beginners"
-                class="hover:text-sky-500"
+                class="hover:text-primary-500"
               >
                 Python Decorators Patterns
               </router-link>
@@ -91,8 +91,8 @@ const isDark = useDark()
                 class="inline-flex items-center px-1 pt-1 text-sm font-medium transition duration-300"
                 :class="
                   route.path === item.path
-                    ? 'text-sky-600 dark:text-sky-400'
-                    : 'text-slate-700 hover:text-sky-500 dark:text-gray-200 dark:hover:text-sky-400'
+                    ? 'text-primary-600 dark:text-primary-400'
+                    : 'text-slate-700 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400'
                 "
               >
                 {{ item.name }}
@@ -103,7 +103,7 @@ const isDark = useDark()
                 v-once
                 :href="item.path"
                 target="_blank"
-                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-slate-700 transition duration-300 hover:text-sky-500 dark:text-gray-200 dark:hover:text-sky-400"
+                class="inline-flex items-center px-1 pt-1 text-sm font-medium text-slate-700 transition duration-300 hover:text-primary-500 dark:text-gray-200 dark:hover:text-primary-400"
               >
                 {{ item.name }}
               </a>

@@ -65,7 +65,7 @@ const smAndLarger = breakpoints.greater('sm')
       </base-title>
       <h1
         v-else
-        class="mb-2 bg-gradient-to-r from-indigo-400 to-green-400 bg-clip-text text-center font-display text-4xl font-medium tracking-tight text-transparent dark:from-sky-400 dark:via-teal-300 dark:to-orange-300"
+        class="mb-2 bg-gradient-to-r from-secondary-400 to-green-400 bg-clip-text text-center font-display text-4xl font-medium tracking-tight text-transparent dark:from-primary-400 dark:via-teal-300 dark:to-orange-300"
       >
         Python Cheatsheet
       </h1>
