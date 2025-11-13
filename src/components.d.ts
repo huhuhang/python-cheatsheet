@@ -48,7 +48,6 @@ declare module 'vue' {
     ReferenceIcon: typeof import('./components/icons/ReferenceIcon.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    SubscriptionForm: typeof import('./components/SubscriptionForm.vue')['default']
     Switch: typeof import('@headlessui/vue')['Switch']
     Tag: typeof import('./components/ui/Tag.vue')['default']
     TheFooter: typeof import('./components/layout/TheFooter.vue')['default']

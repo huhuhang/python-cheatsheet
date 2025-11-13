@@ -90,7 +90,7 @@ const isDark = useDark()
           <base-theme-toggle />
           <a
             target="_blank"
-            href="https://github.com/labex-labs/python-cheatsheet"
+            href="https://github.com/wilfredinni/python-cheatsheet"
             rel="noreferrer"
           >
             <github-icon />

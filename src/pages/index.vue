@@ -7,7 +7,7 @@ import GridIcon from '~/components/icons/GridIcon.vue'
 
 const cardLinks = [
   {
-    path: 'https://github.com/labex-labs/python-cheatsheet',
+    path: 'https://github.com/wilfredinni/python-cheatsheet',
     name: 'View on GitHub',
     description: `Drop a star on GitHub if you find this project useful.`,
     icon: ArrowIcon,
@@ -78,8 +78,6 @@ const smAndLarger = breakpoints.greater('sm')
         and many other sources.
       </p>
     </prose>
-
-    <subscription-form class="mb-8 mt-6" />
 
     <div className="not-prose my-8 grid grid-cols-1 gap-6 sm:grid-cols-2">
       <base-link-card

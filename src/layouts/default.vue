@@ -45,13 +45,11 @@ const rootRepositoryRoutes = ['contributing', 'changelog']
 
         <base-pagination v-if="!$route.path.startsWith('/builtin/')" />
 
-        <subscription-form v-if="$route.name !== 'index'" class="mt-5" />
-
         <the-footer
           :repository="
             !rootRepositoryRoutes.includes($route.name as string)
-              ? 'https://github.com/labex-labs/python-cheatsheet/blob/master/docs'
-              : 'https://github.com/labex-labs/python-cheatsheet/blob/master/src/pages'
+              ? 'https://github.com/wilfredinni/python-cheatsheet/blob/master/docs'
+              : 'https://github.com/wilfredinni/python-cheatsheet/blob/master/src/pages'
           "
         />
       </div>

@@ -207,7 +207,6 @@ declare global {
   const useNavigationStore: typeof import('./store/navigation')['useNavigationStore']
   const useNavigatorLanguage: typeof import('@vueuse/core')['useNavigatorLanguage']
   const useNetwork: typeof import('@vueuse/core')['useNetwork']
-  const useNewsletterStore: typeof import('./store/newsletter')['useNewsletterStore']
   const useNow: typeof import('@vueuse/core')['useNow']
   const useObjectUrl: typeof import('@vueuse/core')['useObjectUrl']
   const useOffsetPagination: typeof import('@vueuse/core')['useOffsetPagination']
@@ -513,7 +512,6 @@ declare module 'vue' {
     readonly useNavigationStore: UnwrapRef<typeof import('./store/navigation')['useNavigationStore']>
     readonly useNavigatorLanguage: UnwrapRef<typeof import('@vueuse/core')['useNavigatorLanguage']>
     readonly useNetwork: UnwrapRef<typeof import('@vueuse/core')['useNetwork']>
-    readonly useNewsletterStore: UnwrapRef<typeof import('./store/newsletter')['useNewsletterStore']>
     readonly useNow: UnwrapRef<typeof import('@vueuse/core')['useNow']>
     readonly useObjectUrl: UnwrapRef<typeof import('@vueuse/core')['useObjectUrl']>
     readonly useOffsetPagination: UnwrapRef<typeof import('@vueuse/core')['useOffsetPagination']>
