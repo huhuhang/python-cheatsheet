@@ -147,20 +147,14 @@ const response = computed(() => newsletter.getResponse)
             You are already subscribed. Thanks!
           </p>
         </template>
-        <div class="mt-10 flex items-center gap-x-6">
-          <router-link
-            to="/sponsor"
-            class="rounded-md dark:bg-sky-700 bg-sky-600 dark:hover:bg-sky-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition"
-          >
-            Sponsor
-          </router-link>
-          <!-- <a
+        <!-- <div class="mt-10 flex items-center gap-x-6">
+          <a
             href="https://news.pythoncheatsheet.org/"
             class="text-sm font-semibold leading-6 text-slate-900 dark:text-slate-50"
           >
             Latest Issue <span aria-hidden="true">→</span>
-          </a> -->
-        </div>
+          </a>
+        </div> -->
       </div>
       <div
         class="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow w-[600px] hidden xl:block"

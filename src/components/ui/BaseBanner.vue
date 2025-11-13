@@ -15,7 +15,7 @@ const showBanner = useLocalStorage(keyName.value, true)
 
 <template>
   <div v-if="!reader.isActive && showBanner">
-    <div class="kinsta-background">
+    <div class="banner-background">
       <div class="mx-auto max-w-7xl py-3 px-3 sm:px-6 md:px-0 lg:px-8">
         <div class="sm:px-16 sm:text-center">
           <div class="text-sm font-medium text-sky-600 dark:text-sky-400">
@@ -62,7 +62,7 @@ const showBanner = useLocalStorage(keyName.value, true)
 </template>
 
 <style scoped>
-.kinsta-background {
+.banner-background {
   background-color: #0e0a1b;
 }
 </style>
