@@ -7,14 +7,13 @@
 <div align="center">
   <a href="https://www.pythoncheatsheet.org/">pythoncheatsheet.org</a> |
   <a href="https://news.pythoncheatsheet.org/">Newsletter</a> |
-  <a href="https://github.com/wilfredinni/python-cheatsheet/blob/master/src/pages/contributing.md">Contribute</a> |
-  <a href="https://github.com/wilfredinni/python-cheatsheet/blob/master/src/pages/changelog.md">Changelog</a>
+  <a href="https://github.com/labex-labs/python-cheatsheet/blob/master/src/pages/contributing.md">Contribute</a> |
+  <a href="https://github.com/labex-labs/python-cheatsheet/blob/master/src/pages/changelog.md">Changelog</a>
 </div>
 
 <!-- <p align='center' style="margin-top: 20px;">
 <a href="https://www.pythoncheatsheet.org/">Python Cheatsheet</a> is based on the book <a href="https://automatetheboringstuff.com/">Automate the Boring Stuff with Python</a> and many other sources.
 </p> -->
-
 
 <img src="public/screenshots/light.png">
 
@@ -30,8 +29,8 @@ for a regex, [slice a list](https://www.pythoncheatsheet.org/cheatsheet/lists-an
 
 ## Contributors
 
-<a href="https://github.com/wilfredinni/python-cheatsheet/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=wilfredinni/python-cheatsheet" />
+<a href="https://github.com/labex-labs/python-cheatsheet/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=labex-labs/python-cheatsheet" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).

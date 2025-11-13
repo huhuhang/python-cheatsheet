@@ -13,20 +13,20 @@ First off, thank you for considering contributing to the Python Cheatsheet! It's
 
 Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
 
-The following is a set of guidelines for contributing. These are mostly guidelines, not rules. Use your best judgment, and please don't hesitate to propose changes to [this document](https://github.com/wilfredinni/python-cheatsheet/blob/master/src/pages/contributing.md).
+The following is a set of guidelines for contributing. These are mostly guidelines, not rules. Use your best judgment, and please don't hesitate to propose changes to [this document](https://github.com/labex-labs/python-cheatsheet/blob/master/src/pages/contributing.md).
 
 ## Code of Conduct
 
-This project and everyone who participates in it is governed by the [Contributor Covenant Code of Conduct](https://github.com/wilfredinni/python-cheatsheet/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to services@github.com.
+This project and everyone who participates in it is governed by the [Contributor Covenant Code of Conduct](https://github.com/labex-labs/python-cheatsheet/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to services@github.com.
 
 ## How Can I Contribute?
 
 There are many ways to contribute, from writing code and documentation to submitting bug reports and feature requests.
 
--   **Reporting Bugs:** If you find a bug, please open an [Issue](https://github.com/wilfredinni/python-cheatsheet/issues) and provide as much information as possible.
--   **Suggesting Enhancements:** Have an idea for a new feature or an improvement to an existing one? Open an [Issue](https://github.com/wilfredinni/python-cheatsheet/issues) to discuss it.
--   **Writing Content:** You can add new cheatsheet pages, blog posts, or improve existing content.
--   **Pull Requests:** If you're ready to contribute code or content, we welcome your [Pull Requests](https://github.com/wilfredinni/python-cheatsheet/pulls).
+- **Reporting Bugs:** If you find a bug, please open an [Issue](https://github.com/labex-labs/python-cheatsheet/issues) and provide as much information as possible.
+- **Suggesting Enhancements:** Have an idea for a new feature or an improvement to an existing one? Open an [Issue](https://github.com/labex-labs/python-cheatsheet/issues) to discuss it.
+- **Writing Content:** You can add new cheatsheet pages, blog posts, or improve existing content.
+- **Pull Requests:** If you're ready to contribute code or content, we welcome your [Pull Requests](https://github.com/labex-labs/python-cheatsheet/pulls).
 
 ## Getting Started: Setting Up the Project Locally
 
@@ -34,7 +34,7 @@ Ready to start contributing? Here’s how to set up the project on your local ma
 
 1.  **Fork the Repository**
 
-    Start by [forking the repository](https://github.com/wilfredinni/python-cheatsheet/fork) to your own GitHub account.
+    Start by [forking the repository](https://github.com/labex-labs/python-cheatsheet/fork) to your own GitHub account.
 
 2.  **Clone Your Fork**
 
@@ -50,11 +50,13 @@ Ready to start contributing? Here’s how to set up the project on your local ma
     This project uses [pnpm](https://pnpm.io/installation) as its package manager. If you don't have it, install it:
 
     On Linux/macOS:
+
     ```bash
     curl -fsSL https://get.pnpm.io/install.sh | sh -
     ```
 
     On Windows (PowerShell):
+
     ```bash
     iwr https://get.pnpm.io/install.ps1 -useb | iex
     ```
@@ -74,6 +76,7 @@ Ready to start contributing? Here’s how to set up the project on your local ma
     ```bash
     git checkout -b your-branch-name
     ```
+
     For example: `git checkout -b feat/add-asyncio-cheatsheet` or `git checkout -b fix/typo-in-basics`.
 
 6.  **Run the Development Server**
@@ -83,6 +86,7 @@ Ready to start contributing? Here’s how to set up the project on your local ma
     ```bash
     pnpm dev
     ```
+
     The site will be available at `http://localhost:3333`.
 
 ## Making and Submitting Changes
@@ -173,6 +177,6 @@ pnpm typecheck
 
 3.  **Open a Pull Request**
 
-    Go to the original repository and open a [new pull request](https://github.com/wilfredinni/python-cheatsheet/pulls). Provide a clear title and description of your changes.
+    Go to the original repository and open a [new pull request](https://github.com/labex-labs/python-cheatsheet/pulls). Provide a clear title and description of your changes.
 
 Thank you for your contribution!
