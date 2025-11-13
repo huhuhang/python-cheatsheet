@@ -49,7 +49,7 @@ const routesWithoutGithub = ['index', 'blog']
           {{ EditLink.linkHeader }}
           <a
             target="_blank"
-            :href="`${repository}${$route.path}.md`"
+            :href="`${props.repository}${route.path}.md`"
             class="ml-1 flex text-sky-500 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-500"
           >
             {{ EditLink.linkText }}
