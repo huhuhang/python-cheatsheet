@@ -16,8 +16,8 @@ const isDark = useDark()
 
         <!-- menu -->
         <div class="ml-14 flex flex-1 items-center space-x-6 lg:ml-0">
-          <div class="mr-3 flex flex-shrink-0 items-center">
-            <router-link to="/">
+          <div class="mr-3 flex flex-shrink-0 items-center gap-3">
+            <router-link to="/" class="flex items-center">
               <img
                 class="h-7 w-auto"
                 :src="
@@ -30,6 +30,25 @@ const isDark = useDark()
                 width="10"
               />
             </router-link>
+            <div class="h-6 w-px bg-slate-300 dark:bg-slate-700"></div>
+            <a
+              href="https://labex.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center"
+            >
+              <img
+                class="h-7 w-auto"
+                :src="
+                  isDark
+                    ? 'https://cdn.jsdelivr.net/gh/labex-labs/files@master/images/labex-logo-light.svg'
+                    : 'https://cdn.jsdelivr.net/gh/labex-labs/files@master/images/labex-logo-dark.svg'
+                "
+                alt="LabEx"
+                height="10"
+                width="10"
+              />
+            </a>
           </div>
 
           <algolia-doc-search />

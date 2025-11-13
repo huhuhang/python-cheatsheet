@@ -1,9 +1,14 @@
 import { acceptHMRUpdate, defineStore } from 'pinia'
 
+interface NavbarNavigationItem {
+  name: string
+  path: string
+  internal?: boolean
+}
+
 export const useNavigationStore = defineStore('navigation', {
   state: () => ({
-    navbarNavigation: [
-    ],
+    navbarNavigation: [] as NavbarNavigationItem[],
     mainNavigation: [
       {
         name: 'Getting started',
