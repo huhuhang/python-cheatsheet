@@ -9,15 +9,7 @@ export const useNavigationStore = defineStore('navigation', {
       {
         name: 'Getting started',
         path: '/',
-      },
-      {
-        name: 'Contributing',
-        path: '/contributing',
-      },
-      {
-        name: 'Changelog',
-        path: '/changelog',
-      },
+      }
     ],
     cheatsheetNavigation: [
       {
@@ -87,7 +79,7 @@ export const useNavigationStore = defineStore('navigation', {
         updated: false,
       },
       {
-        name: 'Json and Yaml',
+        name: 'JSON and YAML',
         path: '/cheatsheet/json-yaml',
         updated: false,
       },
@@ -149,7 +141,7 @@ export const useNavigationStore = defineStore('navigation', {
         updated: false,
       },
       {
-        name: 'Csv',
+        name: 'CSV',
         path: '/modules/csv-module'
       },
       {
@@ -161,11 +153,11 @@ export const useNavigationStore = defineStore('navigation', {
         path: '/modules/itertools-module',
       },
       {
-        name: 'Json',
+        name: 'JSON',
         path: '/modules/json-module',
       },
       {
-        name: 'Os',
+        name: 'OS',
         path: '/modules/os-module',
         updated: false,
       },
