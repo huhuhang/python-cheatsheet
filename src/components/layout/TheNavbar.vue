@@ -52,12 +52,9 @@ const isDark = useDark()
 
           <algolia-doc-search />
 
-          <base-badge-notice size="xs" class="hidden xl:block">
+          <base-badge-notice size="xs" class="hidden lg:block">
             <template #title>
-              <router-link
-                to="/blog"
-                class="capitalize hover:text-primary-500"
-              >
+              <router-link to="/blog" class="capitalize hover:text-primary-500">
                 ✨ Blog
               </router-link>
             </template>

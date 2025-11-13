@@ -23,7 +23,7 @@ const showBanner = useLocalStorage(keyName.value, true)
               <slot name="shortMsg">We announced a new product!</slot>
             </div>
             <div
-              class="md hidden items-center md:flex md:justify-center text-white xl:px-20"
+              class="hidden items-center md:flex md:justify-center text-white xl:px-20"
             >
               <slot name="message">
                 Big news! We're excited to announce a brand new product.

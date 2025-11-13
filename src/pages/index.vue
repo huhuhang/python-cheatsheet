@@ -71,7 +71,7 @@ const smAndLarger = breakpoints.greater('sm')
       </h1>
     </prose>
 
-    <prose class="hidden sm:block">
+    <prose>
       <p>
         Anyone can forget how to
         <router-link
