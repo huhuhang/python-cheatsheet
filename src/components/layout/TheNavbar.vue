@@ -32,9 +32,8 @@ const isDark = useDark()
             </router-link>
             <div class="h-6 w-px bg-slate-300 dark:bg-slate-700"></div>
             <a
-              href="https://labex.io/"
+              href="https://labex.io/learn"
               target="_blank"
-              rel="noopener noreferrer"
               class="flex items-center"
             >
               <img

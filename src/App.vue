@@ -12,7 +12,6 @@ useScrollBehavior()
         <a
           href="https://labex.io/pricing"
           target="_blank"
-          rel="noopener noreferrer"
           class="ml-1 font-semibold text-white underline hover:text-slate-200"
         >
           Get 50% OFF Now →
@@ -25,7 +24,6 @@ useScrollBehavior()
         <a
           href="https://labex.io/pricing"
           target="_blank"
-          rel="noopener noreferrer"
           class="ml-1 font-semibold text-white underline hover:text-slate-200"
         >
           Get 50% OFF →
