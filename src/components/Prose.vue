@@ -20,8 +20,7 @@ const reader = useReaderStore()
       'dark:prose-hr:border-slate-800',
       // table
       'overflow-x-auto prose-thead:leading-6 prose-th:font-semibold prose-th:text-slate-700 prose-td:font-mono prose-td:font-bold prose-td:leading-6 prose-td:text-primary-500 prose-th:dark:text-slate-300 prose-td:dark:text-primary-400',
-      // code
-      'prose-code:text-primary-500 prose-code:dark:text-primary-400',
+      // code (styling handled in CSS)
       // reader
       reader.isActive ? reader.fontSize : '',
     ]"
